@@ -65,14 +65,14 @@ class HashTable:
 
         Print a warning if the key is not found.
         '''
-       index = self._hash_mod(key)
+        index = self._hash_mod(key)
 
-       if self.storage[index] is None:
-           print(f"WARNING: Key Not Found")
-           return
+        if self.storage[index] is None:
+            print(f"WARNING: Key Not Found")
+            return
 
 
-       self.storage[index] = None
+        self.storage[index] = None
 
 
     def retrieve(self, key):

@@ -47,7 +47,7 @@ class DynamicArray:
 
 my_array = DynamicArray(3)
 my_array.delete(0)
-my_array.append(5)
+my_array.append(0,5)
 
 my_array.delete(0)
 my_array.prepend(4)
